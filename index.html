@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="w-3/12 bg-blue-100 mx-auto my-12 rounded p-4">
+        <header>
+            <h2 class="text-center text-2xl font-semibold">Calculator</h2>
+        </header>
+            <section class="my-5">
+                <div class="">
+                    <input type="text" class="px-3 py-2 rounded-t bg-slate-300 w-full" id="showOutput" disabled>
+                </div>
+                <div>
+                    <input type="text" class="px-3 py-2 rounded-b w-full " id="calculatorDisplay">
+                </div>
+            </section>
+            <section class="grid grid-cols-4 gap-4">
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="9">9</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="8">8</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="7">7</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="+">+</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="6">6</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="5">5</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="4">4</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="-">-</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="3">3</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="2">2</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="1">1</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="*">*</div>
+                <div class="rounded-full  bg-slate-100 text-center h-10 text-3xl font-semibold" id="cs">CS</div>
+                <div class="rounded-full  bg-slate-100 text-center h-10 text-3xl font-semibold" id="0">0</div>
+                <div class="rounded-full  bg-slate-100 text-center h-10 text-3xl font-semibold" id="=">=</div>
+                <div class="rounded-full bg-slate-100 text-center h-10 text-3xl font-semibold" id="/">/</div>
+                
+            </section>
+        <section>
+
+        </section>
+    </main>
+    <script src="js/button.js"></script>
+</body>
+</html>
